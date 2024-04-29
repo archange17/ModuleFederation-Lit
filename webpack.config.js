@@ -24,7 +24,7 @@ module.exports = {
     },
     plugins: [
         new ModuleFederationPlugin({
-            name: 'appLit',
+            name: 'lit',
             filename: 'remoteEntry.js',
             exposes: {
                 './App': './out-tsc/index.js',
