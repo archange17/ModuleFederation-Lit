@@ -7,7 +7,7 @@ module.exports = {
     mode: 'none',
     devServer: {
         static: path.join(__dirname, 'dist'),
-        port: 3002
+        port: 8000
     },
     output: {
         filename: 'main.js',
