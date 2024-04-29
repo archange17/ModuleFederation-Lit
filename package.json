@@ -5,8 +5,8 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "rimraf out-tsc && tsc && webpack serve",
-    "build": "rimraf dist && webpack"
+    "start": "webpack serve",
+    "build": "rimraf dist && tsc && webpack"
   },
   "keywords": [],
   "author": "",
